@@ -23,7 +23,8 @@
 		"test": "jest",
 		"test:file": "jest --testPathPattern",
 		"test:watch": "jest --watch --verbose false",
-		"release": "standard-version"
+		"release": "standard-version",
+		"start": "json-server db.json -m ./node_modules/json-server-auth"
 	},
 	"peerDependencies": {
 		"json-server": "*"
